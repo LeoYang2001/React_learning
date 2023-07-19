@@ -1,0 +1,31 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+}
+#root{
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 12px 2px #ccc;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.info{
+  font-style: italic !important;
+  color: #61dafb;
+}
+
+/* In your CSS */
+.avatar {
+  border-radius: 50%;
+}
