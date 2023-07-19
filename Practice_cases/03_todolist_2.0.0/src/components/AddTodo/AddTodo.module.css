@@ -1,0 +1,33 @@
+.inputBox{
+    height: 40px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.button{
+    width: 40px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 2em;
+    transition: all .2s;
+    background-color: #288bdd;
+}
+.button:hover{
+    background-color: #2173b7;
+}
+.input{
+    flex: 1;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 1em;
+    outline: none;
+    padding-left: .5em;
+    border: 1px solid #ccc;
+}
+.input::placeholder{
+}
+.input:focus{
+    border: 1px solid #555555 !important;
+}

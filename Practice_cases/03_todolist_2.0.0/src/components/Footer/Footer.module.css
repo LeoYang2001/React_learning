@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    color: #ccc;
+    position: absolute;
+    bottom: 0; /* Position the footer at the bottom of the parent container */
+    left: 0;
+    right: 0;
+    margin: 10px;
+}
+.pendingNum{
+    color: #288bdd;
+}
+.button{
+    width: 40px;
+    height: 100%;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    transition: all .2s;
+    background-color: #288bdd;
+}
+.button:hover{
+    background-color: #2173b7;
+}
